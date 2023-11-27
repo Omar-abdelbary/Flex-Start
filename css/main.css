@@ -1,0 +1,1710 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 8160px;
+}
+
+header {
+    width: 100%;
+    height: auto;
+}
+
+header .navbar {
+    width: 100%;
+    height: auto;
+    background-color: #fff !important;
+
+}
+
+header .navbar .navbar-brand {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(1,41,112);
+}
+
+header .navbar .navbar-toggler-icon {
+    color: rgb(1,41,112);
+    font-size: 25px;
+    margin-top: 13px;
+    margin-right: 0px;
+}
+
+
+header .navbar .navbar-nav .nav-item {
+    margin: 0px 15px;
+}
+
+header .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+    color: rgb(38,49,121);
+}
+
+header .navbar .btn {
+    background-color: rgb(65,84,241);
+    margin-right: 22px;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+@media (max-width : 750px) {
+
+    body {
+        height: 19560px;
+    }
+
+    
+    header .navbar .navbar-nav .nav-item {
+        margin-left: 30px;
+    }
+
+    header .navbar .btn {
+        margin-left: 30px;
+        margin-bottom: 15px;
+    }
+
+    header .navbar .btn {
+        display: none;
+    }
+}
+
+
+@media (min-width :751px) and (max-width :950px) {
+    
+    body {
+        height: 14400px;
+    }
+
+    header .navbar .navbar-nav .nav-item {
+        margin-left: 30px;
+    }
+
+    header .navbar .btn {
+        margin-left: 30px;
+        margin-bottom: 15px;
+    }
+
+    header .navbar .btn {
+        display: none;
+    }
+
+}
+
+
+/*  ================================================================= end nav bar ============================================ */
+
+.home {
+    background-image: url(../imgs/hero-bg.png);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+    padding-top: 60px;
+    padding-bottom: 45px;
+}
+
+.home h1 {
+    color: rgb(1,41,112);
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 70px;
+}
+
+.home p {
+    margin-top: 15px;
+    color: #444444;
+    font-size: 19px;
+}
+
+.home .btn {
+    background-color: rgb(65,84,241);
+    color: #fff;
+    font-size: 18px;
+}
+
+.home .img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+
+@media (max-width : 750px) {
+    .home .img-fluid {
+        margin-top: 25px;
+
+    }
+
+    .home h1 {
+        padding-left: 15px;
+        padding-top: 30px;
+    }
+
+    .home .btn  {
+        margin-left: 100px;
+    }
+}
+
+
+@media (min-width :751px) and (max-width :950px) {
+    .home {
+        text-align: center;
+    }
+
+    .home .img-fluid {
+        margin-top: 25px;
+
+    }
+}
+
+/*  ================================================================= end home ======================================================== */
+
+
+/*  ================================================================= about =========================================================== */
+
+.about {
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    margin-top: 30px;
+}
+
+.about .left-section {
+    background-color: rgb(246,249,255);
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    
+}
+
+.about .left-section h2 {
+    padding-left: 30px;
+    padding-top: 15px;
+    font-size: 18px;
+    color: rgb(65,84,241);
+}
+
+.about .left-section h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 12px;
+    color: rgb(1,41,112);
+    padding-left: 30px;
+}
+
+.about .left-section p {
+    font-size: 17px;
+    margin-top: 12px;
+    color: rgb(1,41,112);
+    padding-left: 30px;
+}
+
+.about .left-section .btn {
+    margin-left: 30px ;
+    margin-bottom: 20px;
+    background-color: rgb(65,84,241);
+    color: #fff;
+}
+
+.about .img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+
+@media (max-width : 750px) {
+
+    .about {
+        width: 100%;
+        height: auto;
+        padding-top: 100px;
+        margin-top: 0px;
+    }
+
+    .about .left-section h2 {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+
+    .about .left-section h3, 
+    .about .left-section p {
+        padding-left: 15px;
+    }
+
+    .about .left-section .btn {
+        margin-left: 130px;
+    }
+}
+
+@media (min-width :751px) and (max-width :950px) {
+
+    .about {
+        width: 100%;
+        height: auto;
+        padding-top: 100px;
+        margin-top: 0px;
+    }
+
+    
+    .about .left-section {
+        text-align: center;
+    }
+}
+
+
+/*   ========================================================= end about ========================================================= */
+
+
+/*  ======================================================== our values ===================================================== */
+
+.our-values {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+
+.our-values h2 {
+    font-size: 19px;
+    color: #4154f1;
+    padding-top: 15px;
+
+}
+
+.our-values h3 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #012970 ;
+}
+
+.our-values .info-1 {
+    margin-top: 40px;
+    text-align: center;
+    border: 1px solid rgb(1,41,112);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.our-values .info-1 .img-fluid {
+    width: 70%;
+    height: auto;
+    padding-top: 30px;
+    transition: 1s;
+}
+
+.our-values .info-1 h4 {
+    margin-top: 20px;
+    font-size: 25px;
+    color: #012970;
+}
+
+.our-values .info-1 p {
+    padding-top: 10px;
+    font-size: 16px;
+    color: #4154f1;
+}
+
+.our-values .info-1:hover .img-fluid {
+    transform: scale(.9);
+    z-index: 2;
+}
+
+
+
+@media (max-width : 750px) {
+
+    .our-values .info-1 {
+        margin-top: 30px;
+    }
+
+}
+
+
+
+@media (min-width :751px) and (max-width :950px) {
+
+    .our-values .info-1 {
+        margin-top: 20px !important;
+    }
+
+}
+
+
+/*  ======================================================= end values ======================================================= */
+
+/*  ======================================================== features ================================================ */
+
+
+.features {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+.features h3 {
+    font-size: 17px;
+    color: #4154f1;
+    padding-top: 15px;
+}
+
+.features h4 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #012970;
+}
+
+
+.features .info-features {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+
+.features .info-features .img-fluid {
+    width: 90%;
+    height: auto;
+    text-align: center;
+}
+
+.features .info-features .info-2 {
+    width: 100%;
+    height: auto;
+    padding-top: 45px;
+    cursor: pointer;
+
+}
+
+
+.features .info-features .info-2  i {
+    padding-right: 18px;
+    font-size: 25px;
+    color: #444444;
+    transition: 0.5ms;
+
+}
+
+.features .info-features .info-2  h5 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    transition: 0.5s;
+    background-color: rgb(228,232,249);
+    margin-bottom: 25px;
+}
+
+.features .info-features .info-2 h5:hover i {
+    color: #012970;
+}
+
+
+
+
+.features .info-features .info-3 {
+    width: 100%;
+    height: auto;
+    padding-top: 45px;
+    cursor: pointer;
+
+}
+
+
+.features .info-features .info-3  i {
+    padding-right: 18px;
+    font-size: 25px;
+    color: #444444;
+    transition: 0.5ms;
+
+}
+
+.features .info-features .info-3  h5 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    transition: 0.5s;
+    background-color: rgb(228,232,249);
+    margin-bottom: 25px;
+}
+
+.features .info-features .info-3 h5:hover i {
+    color: #012970;
+}
+
+
+@media (max-width : 750px) {
+    .features .info-features .info-3 {
+        padding-top: 5px;
+    }
+}
+
+/*  ==================================================================== end features =================================================== */
+
+
+/*  ===================================================================== info-4 ============================================= */
+
+.info-4 {
+    /* background-color: red; */
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+
+}
+
+.info-4 h4 {
+    padding-top: 30px;
+    color: #012970;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.info-4 p {
+    font-size: 18px;
+    color: #4154f1;
+}
+
+.info-4 h5 {
+    font-size: 20px;
+    color: #012970;
+}
+
+.info-4 h6 {
+    font-size: 20px;
+    color: #012970;
+}
+
+.info-4 .img-fluid {
+    padding-top: 30px;
+    width: 100%;
+    height: auto;
+}
+
+.info-4 .info-5 {
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+}
+
+.info-4 .info-5 h5 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #012970;
+    padding-top: 20px;
+}
+
+
+.info-4 .info-5 .img-fluid {
+    width: 100%;
+    height: auto;
+    
+    margin-top: 35px;
+}
+
+.info-4 .info-5 h2 {
+    margin-top: 45px;
+    color: #012970;
+    font-size: 22px;
+    
+}
+
+.info-4 .info-5 h2 i {
+    color: #4154f1;
+    font-size: 25px;
+    padding-right: 12px;
+}
+
+.info-4 .info-5 p {
+    color: #4154f1;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+
+@media (max-width : 750px) {
+    .info-4 .info-5 h2, 
+    .info-4 .info-5 p {
+        padding-left: 15px;
+    }
+}
+
+
+/*  ============================================================= end info-4 ========================================================= */
+
+
+/*  =============================================================== services ======================================================== */
+
+.services {
+    width: 100%;
+    height: auto;
+    background-color: #F6F8FA;
+    margin-top: 20px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.services h3 {
+    font-size: 20px;
+    color: #4154f1;
+}
+
+.services h4 {
+    font-size: 25px;
+    color: #012970;
+    font-weight: bold;
+}
+
+.services .services-info {
+    width: 100%;
+    height: auto;
+    
+    margin-top: 25px;
+}
+
+.services .services-info .services-1 {
+    background-color: #fff;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.services .services-info .services-1:hover {
+    background-color: #00a6eb;
+}
+
+.services .services-info .services-1:hover h2 {
+    color: #fff;
+}
+
+.services .services-info .services-1:hover p {
+    color: #fff;
+}
+
+.services .services-info .services-1:hover .btn {
+    color: #012970;
+    
+    background-color: #f6f9ff;
+}
+
+.services .services-info .services-1 i {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #dbf3fe;
+    margin-bottom: 15px;
+    color: #2db6fa;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.services .services-info .services-1 h2 {
+    font-size: 20px;
+    color: #012970;
+    transition: 1s;
+
+}
+
+.services .services-info .services-1 p {
+    color: #012970;
+    font-size: 17px;
+    transition: 1s;
+}
+
+.services .services-info .services-1 .btn {
+    color: #012970;
+    background-color: #dbf3fe;
+    font-size: 18px;
+    margin-bottom: 20px;
+    transition: 1s;
+}
+
+
+.services .services-info .services-2 {
+    background-color: #fff;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.services .services-info .services-2:hover {
+    background-color: #f68c09;
+}
+
+.services .services-info .services-2:hover h2 {
+    color: #fff;
+}
+
+.services .services-info .services-2:hover p {
+    color: #fff;
+}
+
+.services .services-info .services-2:hover .btn {
+    /* color: #012970; */
+    background-color: #f6f9ff;
+}
+
+
+.services .services-info .services-2 i {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #fde3c4;
+    margin-bottom: 15px;
+    color:#ee6c20;
+    font-size: 20px;
+}
+
+.services .services-info .services-2 h2 {
+    font-size: 20px;
+    color: #444444;
+    transition: 1s;
+
+}
+
+.services .services-info .services-2 p {
+    color: #444444;
+    font-size: 17px;
+    transition: 1s;
+}
+
+.services .services-info .services-2 .btn {
+    color: #ee6c20;
+    background-color: #dbf3fe;
+    font-size: 18px;
+    margin-bottom: 20px;
+    transition: 1s;
+}
+
+/*  3  */
+
+
+.services .services-info .services-3 {
+    background-color: #fff;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.services .services-info .services-3:hover {
+    background-color: #15be56;
+}
+
+.services .services-info .services-3:hover h2 {
+    color: #fff;
+}
+
+.services .services-info .services-3:hover p {
+    color: #fff;
+}
+
+.services .services-info .services-3:hover .btn {
+    background-color: #f6f9ff;
+}
+
+
+.services .services-info .services-3 i {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #cffddf;
+    margin-bottom: 15px;
+    color:#08da4e;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.services .services-info .services-3 h2 {
+    font-size: 20px;
+    color: #444444;
+    transition: 1s;
+
+}
+
+.services .services-info .services-3 p {
+    color: #444444;
+    font-size: 17px;
+    transition: 1s;
+}
+
+.services .services-info .services-3 .btn {
+    color: #08da4e;
+    background-color: #dbf3fe;
+    font-size: 18px;
+    margin-bottom: 20px;
+    transition: 1s;
+}
+
+.services .services-info-2 {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    
+}
+
+.services .services-info-2 .services-4 {
+    background-color: #fff;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.services .services-info-2 .services-4 i {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #fef7f8;
+    margin-bottom: 15px;
+    color:#e9222c;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.services .services-info-2 .services-4 h2 {
+
+    font-size: 20px;
+    color: #444444;
+    transition: 1s;
+}
+
+.services .services-info-2 .services-4 p {
+    color: #444444;
+    font-size: 17px;
+    transition: 1s;
+}
+
+.services .services-info-2 .services-4 .btn {
+    color:#e9222c;
+    background-color: #dbf3fe;
+    font-size: 18px;
+    margin-bottom: 20px;
+    transition: 1s;
+
+}
+
+.services .services-info-2 .services-4:hover {
+    background-color: 
+    #e9222c;
+}
+
+.services .services-info-2 .services-4:hover h2 {
+    color: #fff;
+}
+
+.services .services-info-2 .services-4:hover p {
+    color: #fff;
+}
+
+.services .services-info-2 .services-4:hover .btn {
+    background-color: #f6f9ff;
+}
+
+.services .services-info-2 .services-5 {
+    background-color: #fff;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.services .services-info-2 .services-5 i {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #f8e4fd;
+    margin-bottom: 15px;
+    color:#b50edf;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.services .services-info-2 .services-5 h2 {
+
+    font-size: 20px;
+    color: #444444;
+    transition: 1s;
+}
+
+.services .services-info-2 .services-5 p {
+    color: #444444;
+    font-size: 17px;
+    transition: 1s;
+}
+
+.services .services-info-2 .services-5 .btn {
+    color:#b50edf;
+    background-color: #dbf3fe;
+    font-size: 18px;
+    margin-bottom: 20px;
+    transition: 1s;
+
+}
+
+.services .services-info-2 .services-5:hover {
+    background-color: #b50edf;
+}
+
+.services .services-info-2 .services-5:hover h2 {
+    color: #fff;
+}
+
+.services .services-info-2 .services-5:hover p {
+    color: #fff;
+}
+
+.services .services-info-2 .services-5:hover .btn {
+    background-color: #f6f9ff;
+}
+
+/*  */
+
+
+.services .services-info-2 .services-6 {
+    background-color: #fff;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.services .services-info-2 .services-6 i {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #f8e4fd;
+    margin-bottom: 15px;
+    color:#f51f9c;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.services .services-info-2 .services-6 h2 {
+
+    font-size: 20px;
+    color: #444444;
+    transition: 1s;
+}
+
+.services .services-info-2 .services-6 p {
+    color: #444444;
+    font-size: 17px;
+    transition: 1s;
+}
+
+.services .services-info-2 .services-6 .btn {
+    color:#f51f9c;
+    background-color: #dbf3fe;
+    font-size: 18px;
+    margin-bottom: 20px;
+    transition: 1s;
+
+}
+
+.services .services-info-2 .services-6:hover {
+    background-color: #f51f9c;
+}
+
+.services .services-info-2 .services-6:hover h2 {
+    color: #fff;
+}
+
+.services .services-info-2 .services-6:hover p {
+    color: #fff;
+}
+
+.services .services-info-2 .services-6:hover .btn {
+    background-color: #f6f9ff;
+}
+
+
+
+
+@media (max-width :750px) {
+    .services .services-info .services-1 {
+        margin-bottom: 22px;
+    }
+
+    .services .services-info .services-2 {
+        margin-bottom: 22px;
+    }
+
+    .services .services-info-2 .services-4 {
+        margin-bottom: 22px !important;
+    }
+
+    .services .services-info-2 .services-5 {
+        margin-bottom: 22px;
+    }
+
+}
+
+
+
+@media (min-width :751px) and (max-width:950px) {
+    .services .services-info .services-1 {
+        margin-bottom: 22px;
+    }
+
+    .services .services-info-2 .services-4 {
+        margin-bottom: 22px;
+    }
+}
+
+
+/*  ======================================================================= end services ========================================== */
+
+
+
+/*  ===================================================================== price ================================================= */
+
+.price {
+    width: 100%;
+    height: auto;
+    background-color: #F6F8FA;
+
+}
+
+.price h2 {
+    padding-top: 25px;
+    font-size: 18px;
+    color: #4154f1;
+}
+
+.price h3 {
+    color: #012970;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.price .price-info {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    padding-bottom: 30px;
+}
+
+.price .price-info .price-1,
+.price .price-info .price-2,
+.price .price-info .price-3,
+.price .price-info .price-4 {
+    background-color: #fff;
+    border-radius: 25px;
+    border: 1px solid #012970;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.price .price-info .price-1:hover {
+    transform: translateY(-10px);
+}
+
+.price .price-info .price-2:hover {
+    transform: translateY(-10px);
+}
+
+.price .price-info .price-3:hover {
+    transform: translateY(-10px);
+}
+
+.price .price-info .price-4:hover {
+    transform: translateY(-10px);
+}
+
+.price .price-info .price-1 h4, 
+.price .price-info .price-2 h4, 
+.price .price-info .price-3 h4, 
+.price .price-info .price-4 h4 {
+    padding-top: 20px;
+    font-size: 18px;
+    color: #012970;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+}
+
+.price .price-info .price-1 p {
+    color: #444444;
+    font-size: 18px;
+
+}
+
+.price .price-info .price-1 .img-fluid {
+    width: 80%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.price .price-info .price-1 h5,
+.price .price-info .price-2 h5,
+.price .price-info .price-3 h5,
+.price .price-info .price-4 h5{
+    font-size: 17px;
+    color: #012970;
+}
+
+.price .price-info .price-1 h6 {
+    font-size: 17px;
+    color: #4154f1;
+    text-decoration: line-through;
+
+}
+
+.price .price-info .price-1 .btn, 
+.price .price-info .price-2 .btn, 
+.price .price-info .price-3 .btn, 
+.price .price-info .price-4 .btn {
+    margin-bottom: 25px;
+    margin-top: 15px;
+    border: 1px solid #4154f1;
+    color: #4154f1;
+    font-size: 16px;
+    transition: 1s;
+    border-radius: 50px;
+}
+
+.price .price-info .price-1 .btn:hover, 
+.price .price-info .price-2 .btn:hover, 
+.price .price-info .price-3 .btn:hover, 
+.price .price-info .price-4 .btn:hover {
+    background-color: #4154f1;
+    color: #fff;
+}
+.price .price-info .price-2 .img-fluid {
+    width: 80%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.price .price-info .price-3 .img-fluid {
+    width: 80%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.price .price-info .price-4 .img-fluid {
+    width: 80%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+
+.price .price-info .price-2 h6 {
+    font-size: 17px;
+    color: #012970;
+}
+
+.price .price-info .price-2 h6 span {
+    text-decoration: line-through;
+    color: #012970;
+    font-size: 17px;
+}
+
+.price .price-info .price-3 h6 {
+    font-size: 17px;
+    color: #012970;
+}
+
+
+.price .price-info .price-4 h6 {
+    font-size: 17px;
+    color: #012970;
+}
+
+
+
+@media (max-width :750px) {
+    .price .price-info .price-1,
+    .price .price-info .price-2,
+    .price .price-info .price-3,
+    .price .price-info .price-4 {
+        margin-bottom: 22px;
+    }
+}
+
+@media (min-width :751px) and (max-width:950px) {
+    .price .price-info .price-1,
+    .price .price-info .price-2{
+        margin-bottom: 22px;
+
+    }
+}
+
+
+/*  =================================================================== end price ==================================================== */
+
+/*  ================================================================ our questions ================================================== */
+
+.our-question {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    padding-bottom: 25px;
+}
+
+.our-question h3 {
+    padding-top: 20px;
+    font-size: 18px;
+    color: #4154f1;
+}
+
+.our-question h4 {
+    margin-top: 12px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #012970;
+}
+
+.our-question .question-info {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+.our-question .question-info .accordion {
+    margin-top: 20px;
+}
+
+.our-question .question-info .accordion h2 .btn-link {
+    font-size: 17px;
+    color: #012970;
+    border: none;
+    outline: 0px;
+
+}
+
+.our-question .question-info .accordion h2 .btn-link:hover {
+    text-decoration: none;
+    border: none;
+    outline: 0px;
+}
+
+
+.our-question .question-info .accordion .card-body {
+    font-size: 16px;
+    color: #012970;
+
+}
+
+.our-question .question-info .img-fluid {
+    width: 100%;
+    height: auto;
+
+}
+
+
+/*  ================================================================== end our questions =============================================== */
+
+
+
+/*  ========================================================== portfolio ====================================================== */
+
+.portfolio {
+    width: 100%;
+    height: auto;
+    background-color: #F6F8FA;
+    margin-top: 10px;
+    padding-top: 70px;
+}
+
+.portfolio h3 {
+    font-size: 18px;
+    color: #4154f1;
+}
+
+.portfolio h4 {
+    font-size: 25px;
+    color: #012970;
+    font-weight: bold;
+}
+
+
+.portfolio .portfolio-info {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    margin-top: 25px;
+    padding-bottom: 25px;
+}
+
+.portfolio .portfolio-info .nav-pills {
+    width: 100%;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.portfolio .portfolio-info .nav-pills .nav-item {
+    font-size: 16px;
+    font-weight: bold;
+    color: #012970;
+}
+
+.portfolio .portfolio-info .all-imgs .img-fluid {
+    margin-bottom: 15px;
+    cursor: pointer;
+    border: 1px solid #012970;
+    
+}
+
+
+.portfolio .portfolio-info .app-imgs .img-fluid {
+    border: 1px solid #012970;
+}
+
+.portfolio .portfolio-info .web-imgs .img-fluid {
+    border: 1px solid #012970;
+}
+
+.portfolio .portfolio-info .card-imgs .img-fluid {
+    border: 1px solid #012970;
+}
+
+
+@media (max-width :750px) {
+    .portfolio .portfolio-info .app-imgs .img-fluid {
+        margin-bottom: 15px;
+    }
+
+    .portfolio .portfolio-info .web-imgs .img-fluid {
+        margin-bottom: 15px;
+    }
+
+    .portfolio .portfolio-info .card-imgs .img-fluid {
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width :751px) and (max-width :950px) {
+    .portfolio .portfolio-info .app-imgs .img-fluid {
+        margin-bottom: 15px;
+    }
+
+    .portfolio .portfolio-info .web-imgs .img-fluid {
+        margin-bottom: 15px;
+    }
+
+    .portfolio .portfolio-info .card-imgs .img-fluid {
+        margin-bottom: 15px;
+    }
+}
+
+
+/*  ================================================================= end portfolio =================================================== */
+
+
+/*  ================================================================ team ============================================================== */
+
+
+.our-team {
+    width: 100%;
+    height: auto;
+    background-color: #F6F8FA;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.our-team h3 {
+    font-size: 18px;
+    color: #4154f1;
+}
+
+.our-team h4 {
+    color: #012970;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.our-team .team-info {
+    margin-top: 25px;
+    width: 100%;
+    height: auto;
+}
+
+.our-team .team-info .team-info-1, 
+.our-team .team-info .team-info-2, 
+.our-team .team-info .team-info-3, 
+.our-team .team-info .team-info-4 {
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 1s;
+    overflow: hidden;
+    border: 1px solid #012970;
+    position: relative;
+    overflow: hidden;
+    transition: 1s;
+} 
+
+.our-team .team-info  .social-icon {
+    position: absolute;
+    width: 20%;
+    height: auto;
+    background-color: #F6F8FA;
+    flex-direction: column;
+    top: 30px;
+    right: -300px;
+    transition: 1s;
+}
+
+.our-team .team-info  .social-icon i {
+    width: 100%;
+    padding: 10px;
+    color: #012970;
+    font-size: 17px;
+}
+
+
+.our-team .team-info .team-info-1:hover .social-icon, 
+.our-team .team-info .team-info-2:hover .social-icon, 
+.our-team .team-info .team-info-3:hover .social-icon, 
+.our-team .team-info .team-info-4:hover .social-icon {
+    right: 20px;
+    transition: 1s;
+}
+
+
+
+.our-team .team-info .team-info-1 h2, 
+.our-team .team-info .team-info-2 h2, 
+.our-team .team-info .team-info-3 h2, 
+.our-team .team-info .team-info-4 h2 {
+    font-size: 20px;
+    color: #012970;
+    margin-top: 15px;
+}
+
+
+.our-team .team-info .team-info-1 h3, 
+.our-team .team-info .team-info-2 h3, 
+.our-team .team-info .team-info-3 h3, 
+.our-team .team-info .team-info-4 h3 {
+    font-size: 16px;
+    color: #4154f1;
+
+}
+
+
+.our-team .team-info .team-info-1 p, 
+.our-team .team-info .team-info-2 p, 
+.our-team .team-info .team-info-3 p, 
+.our-team .team-info .team-info-4 p {
+    font-size: 13px;
+    color: #012970;
+    
+}
+
+
+@media (max-width : 750px) {
+
+    .our-team .team-info .team-info-1, 
+.our-team .team-info .team-info-2, 
+.our-team .team-info .team-info-3, 
+.our-team .team-info .team-info-4 {
+    margin-bottom: 18px ;
+}
+
+
+}
+
+
+@media (min-width :751px) and (max-width :950px) {
+    
+    .our-team .team-info .team-info-1, 
+    .our-team .team-info .team-info-2, 
+    .our-team .team-info .team-info-3, 
+    .our-team .team-info .team-info-4 {
+        margin-bottom: 18px ;
+    }
+}
+
+
+
+/*  ============================================================ end team ====================================================== */
+
+
+/*  =========================================================== clients ===================================================== */
+
+.clients {
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+    margin-top: 20px;
+    padding-top: 30px;
+}
+
+.clients h3 {
+    font-size: 17px;
+    color: #4154f1;
+}
+
+.clients h4 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #012970;
+}
+
+.clients .owl-carousel {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.clients .owl-carousel .item {
+    cursor: pointer;
+}
+
+.clients .owl-carousel .item .img-fluid {
+    width: 60%;
+    height: auto;
+}
+
+
+@media (max-width : 750px) {
+    .clients .owl-carousel .item .img-fluid {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+@media (min-width : 751px) and (max-width : 950px) {
+    .clients .owl-carousel .item .img-fluid {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+/*  ========================================================= end clients  =========================================================== */
+
+
+/*  ========================================================= blog =============================================================== */
+
+.blog {
+    width: 100%;
+    height: auto;
+    background-color: rgb(247,248,251);
+    padding-top: 70px;
+    padding-bottom: 25px;
+    margin-top: 20px;
+}
+
+.blog h3 {
+    font-size: 17px;
+    color: #4154f1;
+}
+
+.blog h4 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #012970;
+}
+
+
+.blog .blog-info {
+    margin-top: 30px;
+    
+}
+
+.blog .blog-info .blog-info-1,
+.blog .blog-info .blog-info-2,
+.blog .blog-info .blog-info-3 {
+    border: 1px solid #012970;
+    border-radius: 20px;
+    transition: 1s;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+
+.blog .blog-info .blog-info-1 p,
+.blog .blog-info .blog-info-2 p,
+.blog .blog-info .blog-info-3 p {
+    font-size: 18px;
+    color: #012970;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.blog .blog-info .blog-info-1 h4, 
+.blog .blog-info .blog-info-2 h4, 
+.blog .blog-info .blog-info-3 h4 {
+    font-size: 22px;
+    color: #012970;
+    font-weight: bold;
+    padding-left: 15px;
+} 
+
+.blog .blog-info .blog-info-1 .btn,
+.blog .blog-info .blog-info-2 .btn,
+.blog .blog-info .blog-info-3 .btn{
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 17px;
+    margin-left: 25px;
+    background-color: #444444;
+}
+
+
+
+
+@media (max-width : 750px) {
+
+    .blog .blog-info .blog-info-1,
+.blog .blog-info .blog-info-2,
+.blog .blog-info .blog-info-3 {
+    margin-bottom: 15px;
+}
+
+}
+
+
+
+@media (min-width : 751px) and (max-width : 950px) {
+
+    .blog .blog-info .blog-info-1,
+    .blog .blog-info .blog-info-2,
+    .blog .blog-info .blog-info-3 {
+        margin-bottom: 15px;
+    }
+
+}
+
+
+/*  ============================================================= end blog ======================================================== */
+
+
+/* ============================================================== contact ========================================================== */
+
+.contact {
+    background-color: rgb(247,248,251);
+    padding-top: 70px;
+    padding-bottom: 20px ;
+    width: 100%;
+    height: auto;
+}
+
+.contact h3 {
+    font-size: 17px;
+    color: #4154f1;
+}
+
+.contact h4 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #012970;
+}
+
+
+.contact .contact-info {
+    margin-top: 30px;
+}
+
+.contact .contact-info .contact-info-1, 
+.contact .contact-info .contact-info-2, 
+.contact .contact-info .contact-info-3, 
+.contact .contact-info .contact-info-4 {
+    background-color: #fff;
+    border: 1px solid #012970;
+    cursor: pointer;
+}
+
+.contact .contact-info .contact-info-1 i, 
+.contact .contact-info .contact-info-2 i, 
+.contact .contact-info .contact-info-3 i, 
+.contact .contact-info .contact-info-4 i {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-size: 20px;
+    color: #4154f1;
+}
+
+
+.contact .contact-info .contact-info-1 h2, 
+.contact .contact-info .contact-info-2 h2, 
+.contact .contact-info .contact-info-3 h2, 
+.contact .contact-info .contact-info-4 h2 {
+    font-size: 23px;
+    color: #012970;
+    font-weight: bold;
+}
+
+
+
+.contact .contact-info .contact-info-1 p, 
+.contact .contact-info .contact-info-2 p, 
+.contact .contact-info .contact-info-3 p, 
+.contact .contact-info .contact-info-4 p {
+    font-size: 16px;
+    color: #012970;
+
+}
+
+
+
+
+
+
+@media (max-width : 750px) {
+
+    .contact .contact-info .contact-info-1, 
+    .contact .contact-info .contact-info-2, 
+    .contact .contact-info .contact-info-3, 
+    .contact .contact-info .contact-info-4 {
+        margin-bottom: 15px;
+    }
+
+}
+
+
+
+@media (min-width : 751px) and (max-width : 950px) {
+
+    .contact .contact-info .contact-info-1, 
+    .contact .contact-info .contact-info-2, 
+    .contact .contact-info .contact-info-3, 
+    .contact .contact-info .contact-info-4 {
+        margin-bottom: 15px;
+    }
+
+}
+
+
+/*  =========================================================== end contact ================================================ */
+
+
+/*  ================================================================ info-me ================================================ */
+
+.info-me {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+
+.info-me h2 {
+    font-size: 20px;
+    color: #012970;
+    cursor: pointer;
+}
+
+.info-me h2 a {
+    color: #4154f1;
+    font-size: 20px;
+    font-weight: bold ;
+}
+
+.info-me h2 a:hover {
+    text-decoration: none;
+}
+
+
+/*  ======================================================================= end info-me ====================================== */
+
+/*  ======================================================================== scroll-top ================================== */
+
+
+.up .btn {
+    position: fixed;
+    right: -50px;
+    bottom: 20px;
+    background-color: #012970;
+    color: #fff;
+    font-size: 22px;
+    transition: 0.5s;
+
+}
+
+
+.scroll-right {
+    right: 20px !important;
+}
